@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "seasonchanges",
+  "version": "${version}",
+  "name": "SeasonChanges",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/seasonchanges/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "SeasonChange.seasonchanges.client.SeasonchangesDataGenerator"
+    ],
+    "client": [
+      "SeasonChange.seasonchanges.client.SeasonchangesClient"
+    ],
+    "main": [
+      "SeasonChange.seasonchanges.Seasonchanges"
+    ]
+  },
+  "mixins": [
+    "seasonchanges.mixins.json",
+    {
+      "config": "seasonchanges.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
