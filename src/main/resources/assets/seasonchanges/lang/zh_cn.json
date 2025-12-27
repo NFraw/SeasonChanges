@@ -1,3 +1,4 @@
 {
-  "item.seasonchange.ice_cream": "冰淇淋"
+  "item.seasonchange.ice_cream": "冰淇淋",
+  "itemGroup.seasonchanges.test_group": "季节变化测试组"
 }

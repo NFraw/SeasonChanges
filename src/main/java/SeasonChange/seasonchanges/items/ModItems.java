@@ -1,7 +1,10 @@
 package SeasonChange.seasonchanges.items;
 
 import SeasonChange.seasonchanges.Seasonchanges;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -19,7 +22,12 @@ public final class ModItems {
     }
 
     public static void initialize() {
-        Seasonchanges.LOGGER.info("Resgistering Items");
+        Seasonchanges.LOGGER.info("Registering Items");
     }
 
+//    public static void registerToVanillaItemGroups() {
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
+//            content.addAfter(Items.OAK_DOOR, ICE_CREAM);
+//        });
+//    }
 }

@@ -1,3 +1,4 @@
 {
-  "item.seasonchange.ice_cream": "ice cream"
+  "item.seasonchange.ice_cream": "ice cream",
+  "itemGroup.seasonchanges.test_group": "Season Changes Test Group"
 }

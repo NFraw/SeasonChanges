@@ -117,3 +117,25 @@ runs/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+
+# Minecraft 核心文件
+*.7z
+mods/
+resourcepacks/
+shaderpacks/
+saves/
+config/
+defaultconfigs/
+logs/
+crash-reports/
+screenshots/
+debug/
+launcher_profiles.json
+
+# IDEA 项目文件
+target/
+
+# 系统与缓存文件
+*.tmp
+*.bak
+*.swp
