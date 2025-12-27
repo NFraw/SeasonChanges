@@ -14,7 +14,7 @@ public final class ModItems {
     private ModItems() {}
 
     // 新物品的实例
-    public static final Item ICE_CREAM = register("ice_cream", new Item(new Item.Settings()));
+    public static final Item ICE_CREAM = register("ice_cream", new ModItem(new Item.Settings().maxCount(16)));
 
     public static <T extends Item> T register(String id, T item) {
         // 对于 1.21 之前的版本，请将 ''Identifier.of'' 替换为 ''new Identifier''
