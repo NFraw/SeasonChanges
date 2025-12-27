@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/seasonchanges/icon.png",
+  "icon": "assets/seasonchanges/Season.ico",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
